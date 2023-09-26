@@ -1,0 +1,84 @@
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.create-task-block {
+    margin-bottom: 20px;
+}
+
+.create-task-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-task-block {
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.collection {
+    list-style: none;
+    padding: 0;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete-item {
+    margin-left: 10px;
+    color: #e62828;
+    cursor: pointer;
+}
+
+.edit-item {
+    margin-left: 10px;
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.clear-tasks {
+    padding: 10px 20px;
+    background-color: #e62828;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

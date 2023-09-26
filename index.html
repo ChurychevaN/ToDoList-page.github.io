@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <title>List of tasks</title>
+</head>
+<body>
+<div class="container">
+
+  <div class="create-task-block">
+    <form class="create-task-form">
+      <h3 class="task-title">New task</h3>
+      <div class="input-field">
+        <label>
+          <input type="text" name="task" class="task-input">
+        </label>
+      </div>
+      <button type="submit" class="btn">Add a task</button>
+    </form>
+  </div>
+
+
+  <div class="filter-task-block">
+    <h3 class="task-title">Task list</h3>
+    <div class="input-field">
+    </div>
+    <ul class="collection"></ul>
+    <button class="clear-tasks">Delete all tasks</button>
+  </div>
+
+</div>
+<script src='index.js'></script>
+</body>
+</html>
